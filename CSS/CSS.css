@@ -4,17 +4,24 @@ body {
 	color: #333333;
 	margin: 0;
     padding: 0;
+    /*added, this the line height in a percentange of the current font size*/
+    line-height: 150%;
 	}
 
 header {
 	background-color: #333333;
+	
+
 }
 
 h1 {
 	color: #eee;
 	font-size: 28px;
-	margin: 15;
-    padding: 20;
+	/*added px*/
+	margin: 15px;
+    padding: 20px;
+    /*added*/
+	text-align: center;
 }
 
 h2 {
@@ -29,14 +36,19 @@ h2 {
 #main-bio {
 	float: left;
 	width: 70%;
-	margin: 15px;
+	/*removed*/
+	/*margin: 15px;*/
 }
 #contact-info {
 	float: left;
+	/*added*/
+	width: 30%;
 }
 #bio-image {
 	float: left;
 	width: 200px;
+	/*added*/
+	margin-right: 20px;
 }
 #content-info {
 	width: 30%;
